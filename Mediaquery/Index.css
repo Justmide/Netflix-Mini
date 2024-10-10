@@ -155,7 +155,7 @@
     }
 
 
-    
+
     @media(max-width: 1074px){
     .containercard{
       /* flex-wrap: nowrap; */
@@ -363,6 +363,16 @@
     }
     }
     
+    /* // Remove the arrow for Mobile */
+
+
+    @media(max-width: 600px) {
+        a.arrow__btn {
+          display:none;
+        }
+      }
+
+
     @media(max-width: 510px){
     .containercard{
       /* flex-wrap: nowrap; */
