@@ -540,8 +540,8 @@ body {
     }
 
 
-    .footer{
-       border: medium solid red;
+   .footer{
+       /* border: medium solid red; */
        height: 30em; 
        padding-left: 70px;
        padding-right: 70px;
@@ -557,27 +557,27 @@ body {
       
     }
 
-    .footer .footer1 ul{
+    .footer .footer1{
         margin-top: 30px;
         margin-left: 130px;
         list-style-type: none;
      }
 
-     .footer .footer2 ul{
-        /* margin-top: 30px;
-        margin-left: 130px; */
+     .footer .footer2{
+        margin-top: 30px;
+        margin-left: 130px;
         list-style-type: none;
      }
 
-     .footer .footer3 ul{
-        /* margin-top: 30px;
-        margin-left: 130px; */
+     .footer .footer3 {
+        margin-top: 30px;
+        margin-left: 130px;
         list-style-type: none;
      }
 
-     .footer .footer4 ul{
-        /* margin-top: 30px;
-        margin-left: 130px; */
+     .footer .footer4 {
+        margin-top: 30px;
+        margin-left: 130px;
         list-style-type: none;
      }
    
