@@ -271,6 +271,7 @@
        .btn{
         width: 90%;
         margin-left: 50px;
+        text-align: start;
         
     }
     .dropdown{
@@ -340,6 +341,11 @@
       flex-direction: row;
       flex-wrap: wrap;
     }
+
+          header nav svg {
+        width: 150px;
+        margin-top: -10px;
+    }  
     
     .card1{
       width: 100%;
@@ -496,7 +502,10 @@
       flex-direction: row;
       flex-wrap: wrap;
     }
-    
+      header nav svg {
+        width: 150px;
+        margin-top: -10px;
+    }  
     .card1{
       width: 100%;
       height: 270px;
