@@ -543,37 +543,58 @@ body {
     .footer{
        border: medium solid red;
        height: 30em; 
-       padding-left: 70px;
-       padding-right: 70px;
-       display: flex;
-       gap: 7rem;
+       
+
     }
 
+    .footerflex{
+        width: 80%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: medium solid red;
+    }
     .question{
         margin-top: 30px;
+        
     }
 
     .footer .footer1{
        margin-top: 30px;
+       text-wrap: wrap;
+    
       
     }
 
     .footer .footer1 ul{
         margin-top: 60px;
-        margin-left: -270px;
+        margin-left: -300px;
         list-style-type: none;
      }
 
 
      .footer2{
         margin-top: 90px;
+
+    
+     }
+
+     .footer .footer2 ul{
+        list-style-type: none;
      }
 
 .footer3{
-    margin-top: 90px;  
-}
+    margin-top: 90px;
    
+}
+.footer .footer3 ul{
+    list-style-type: none;
+ }
 
 .footer4{
-    margin-top: 90px;  
+    margin-top: 90px;
+    width: 100%;
 }
+.footer .footer4 ul{
+    list-style-type: none;
+ }
