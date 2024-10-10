@@ -268,18 +268,23 @@
       flex-direction: row;
       flex-wrap: wrap;
     }
-    .btn{
-        width: 100px;
+       .btn{
+        width: 90%;
+        margin-left: 50px;
+        
     }
     .dropdown{
-        padding-left: 120px;
+        /* padding-left: 120px; */
         /* width: 50px; */
         width: 100%;
+        margin-left: -100px;
         }
 
    .dropdown2{
-    /* padding-left: 130px; */
-    margin-top: -38px;
+    margin-top: 20px;
+    padding-left: 0px;
+    /* margin-left: -90px; */
+   
     width: 100%;
     }
 
