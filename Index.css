@@ -60,7 +60,7 @@ header nav p{
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
-    margin: 80px;
+    /* margin: 80px; */
 }
 
 
@@ -119,7 +119,7 @@ font-weight: 500;
 }
 
 
-.main .headerText .ready{
+.main .headerText .watch{
     font-family: sans-serif;
     Font-size: 16px;
     Font-weight: 400;
@@ -154,12 +154,19 @@ font-weight: 500;
 .row button{
     background-color: #E50914;
     height: 60px;
-    /* width: 200px; */
+    width: 100%;
     font-size: 24px;
     font-weight: 500;
     font-family: sans-serif;
+    color: white;
 }
 
+.col-auto .visually-hidden{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
 .row button:hover{
     background-color: #990a11;
     
@@ -170,11 +177,13 @@ font-weight: 500;
     height: 500px;
     background-color: black;
 }
-/* .linear{
-    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
-    height: 80px;
+.linear{
+    /* background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    height: 80px; */
+    
+    
 
-} */
+}
 
 .curve-container{
     border: medium solid red;
@@ -200,5 +209,240 @@ font-weight: 500;
 }
 
 .dropdown{
-    
+padding-left: 120px;
+/* width: 50px; */
 }
+
+.btn-secondary{
+    --bs-btn-bg: #6c757d00;
+}
+/* button{
+    font-size: 10px;
+} */
+
+.btn{
+    width: 100px;
+}
+
+.dropdown2{
+padding-left: 130px;
+margin-top: -38px;
+}
+
+.carousel-inner{
+display: flex;
+}
+
+.carousel-inner img{
+    display: flex;
+}
+
+
+/* section3 css */
+.containercard{
+    /* border: medium solid red; */
+    display: inline-flex;
+    /* margin-left: 90px; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 0.5rem; */
+    overflow-wrap: break-word;
+   flex-wrap: wrap;
+   flex-direction: row;
+   display: -webkit-inline-flex;
+   padding-top: 13px;
+   width: 100%;
+   gap: 1rem;
+   /* padding-right: 25px; */
+   
+   
+  
+  }
+  
+  .card1{
+    /* width: 285px; */
+    width: 24%;
+    height: 320px;
+    /* border: medium solid red; */
+    border-radius: 20px;
+    background-image: linear-gradient(155deg,rgb(26,33,69),rgb(32,15,25));
+    padding-top: 15px;
+   
+    
+  }
+  
+  
+  .card2{
+   /* width: 285px; */
+   width: 24%;
+    height: 320px;
+    /* border: medium solid red; */
+    border-radius: 20px;
+    background-image: linear-gradient(155deg,rgb(26,33,69),rgb(32,15,25));
+    padding-top: 15px;
+  }
+  
+  
+  .card3{
+   /* width: 285px; */
+   width: 23%;
+    height: 320px;
+    /* border: medium solid red; */
+    border-radius: 20px;
+    background-image: linear-gradient(155deg,rgb(26,33,69),rgb(32,15,25));
+    padding-top: 15px;
+  }
+  
+  .card4{
+   /* width: 285px; */
+   width: 24%;
+    height: 320px;
+    /* border: medium solid red; */
+    border-radius: 20px;
+    background-image: linear-gradient(155deg,rgb(26,33,69),rgb(32,15,25));
+    padding-top: 15px;
+  }
+  
+  
+  h3{
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   color:rgb(255, 255, 255) ;
+   text-wrap: wrap;
+   /* margin-left: 90px; */
+  
+  }
+  
+  .bodyofall{
+   background-color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+  }
+  
+  
+  .headingText{
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color:rgb(255, 255, 255) ;
+  text-wrap: wrap;
+  padding-left: 20px;
+  }
+  
+  .textNetflix{
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  text-wrap: wrap;
+  padding-left: 20px;   
+  padding-right: 6px;
+  margin-top: -10px;
+  
+  }
+  .svg5{
+  margin-top: 18%;
+  margin-left: 70%;
+  }
+  
+  .svg2{
+  margin-top: 17%;
+  margin-left: 70%;
+  }
+  
+  .svg3{
+  margin-top: 18%;
+  margin-left: 70%;
+  }
+  
+  .svg4{
+  margin-top: 18%;
+  margin-left: 70%;
+  }
+
+  .secondPage{
+    margin-top: 60px;
+    }
+    
+    .accordion-button {
+    
+    background-color: #2D2D2D;
+    color: white;
+    /* width: 83%; */
+    z-index: 0;
+    ma
+    }
+    
+    
+    .accordion-button:not(.collapsed){
+    color: white;
+    background-color: #2D2D2D;
+    }
+    
+    
+    .fa-plus{
+    margin-left: 80%;
+    width: 2px;
+    
+    }
+    /* .fa-plus:not(.collapsed){
+    color: #0f7fc9;
+    } */
+    .fa-plus:not(.collapse)::after{
+    transform: rotate(-45deg);
+    color: #000;
+    display: none;
+    }
+    
+    
+    /* .accordion-button:hover{
+    background-color: #414141;
+    
+    } */
+    
+    .accordion-button::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/></svg>');
+    transform: scale(2.9);
+    }
+    .accordion-button:not(.collapsed)::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/></svg>');
+    transform: rotate(45deg) scale(2.9);
+    }
+    
+    
+    .accordion-button:hover{
+    background-color: gray;
+    }
+    .accordion-button{
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+     font-size: 24px;
+     font-weight: 500;
+     color:rgb(255, 255, 255) ;
+    }
+    
+    .accordion-body{
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+     font-size: 24px;
+     font-weight: 500;
+     background-color: #2D2D2D;
+     color:rgb(255, 255, 255);
+     margin-left: 50px;
+    
+    }
+    
+    .accordion-collapse{
+    margin-left: -50px;
+    }
+    
+    
+    .ready{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    }
